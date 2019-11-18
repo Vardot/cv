@@ -1,0 +1,20 @@
+name: cv
+type: profile
+description: 'cv.'
+core: 8.x
+version: 8.x-7.x-dev
+base profile: varbase
+dependencies:
+  - action
+  - tracker
+  - aggregator
+themes:
+  # Contrib themes.
+  - adminimal_theme
+  - bootstrap_barrio
+
+  # Custom themes.
+  - vartheme_bs4
+  - vartheme_admin
+distribution:
+  name: cv

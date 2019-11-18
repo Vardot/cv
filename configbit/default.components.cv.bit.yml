@@ -1,0 +1,34 @@
+# ==============================================================================
+# List of default varbase sub profile basic components, which they will be
+# installed when we install varbase.
+# ==============================================================================
+config_bit:
+  type: list
+  for: cv.info.yml
+  when:
+    install_default_components: true
+    list:
+      dependencies:
+        # Enable listed modules in order at this installation step.
+        - libraries
+        # Enable listed Varbase modules in order at this installation step.
+        - varbase_core
+        - varbase_media
+        - varbase_editor
+        - varbase_admin
+        - varbase_email
+        - varbase_security
+        - varbase_seo
+#        - varbase_total_control    # Uncomment if you want to have.
+#        - varbase_tour             # Uncomment if you want to have.
+#        - varbase_update_helper    # Uncomment if you want to have.
+#        - varbase_default_content  # Uncomment if you want to have.
+        # Enable default varbase sub profile basic base modules and features.
+        - vmi
+        - varbase_heroslider_media
+        - varbase_carousels
+        # Enable default varbase sub profile basic features.
+#        - cv_CUSTOM_FEATRE_01
+#        - cv_CUSTOM_FEATRE_02
+#        - cv_CUSTOM_FEATRE_03
+#        - cv_CUSTOM_FEATRE_04
