@@ -4,12 +4,12 @@
 
 ## Who Can Benefit From cv?
 
-To install the dev version of cv 8.7.x run this command:
+To install the dev version of cv 8.1.x run this command:
 ```
-composer create-project vardot/varbase-subprofile-basic-project:8.7.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
+composer create-project vardot/cv-project:8.x-1.x PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-# [Install with Composer](https://github.com/Vardot/varbase-subprofile-basic-project)
+# [Install with Composer](https://github.com/Vardot/cv-project)
 
 Built using [Varbase](https://www.drupal.org/project/varbase), the base
  distribution delivered to you by [Vardot](https://www.vardot.com)
@@ -17,6 +17,6 @@ Built using [Varbase](https://www.drupal.org/project/varbase), the base
 
 ## [Varbase Developer Guide](https://docs.varbase.vardot.com)
 
-## [CHANGELOG for cv](https://github.com/Vardot/cv/blob/8.x-7.x/CHANGELOG.md)
+## [CHANGELOG for cv](https://github.com/Vardot/cv/blob/8.x-1.x/CHANGELOG.md)
 
-## [General instructions on how to update cv](https://github.com/Vardot/cv/blob/8.x-7.x/UPDATE.md)
+## [General instructions on how to update cv](https://github.com/Vardot/cv/blob/8.x-1.x/UPDATE.md)

@@ -89,7 +89,7 @@
       "we will revert to using (cweagans/composer-patches) without this override."
     ],
     "branch-alias": {
-      "dev-8.x-7.x": "8.7.x-dev"
+      "dev-8.x-1.x": "8.x-1.x"
     },
     "installer-types": [
       "bower-asset",

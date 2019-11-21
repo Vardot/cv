@@ -1,5 +1,5 @@
 # ==============================================================================
-# List of default varbase sub profile basic components, which they will be
+# List of default cv components, which they will be
 # installed when we install varbase.
 # ==============================================================================
 config_bit:
@@ -23,11 +23,11 @@ config_bit:
 #        - varbase_tour             # Uncomment if you want to have.
 #        - varbase_update_helper    # Uncomment if you want to have.
 #        - varbase_default_content  # Uncomment if you want to have.
-        # Enable default varbase sub profile basic base modules and features.
+        # Enable default cv base modules and features.
         - vmi
         - varbase_heroslider_media
         - varbase_carousels
-        # Enable default varbase sub profile basic features.
+        # Enable default cv features.
 #        - cv_CUSTOM_FEATRE_01
 #        - cv_CUSTOM_FEATRE_02
 #        - cv_CUSTOM_FEATRE_03
