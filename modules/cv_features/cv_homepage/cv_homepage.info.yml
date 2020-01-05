@@ -9,5 +9,5 @@ dependencies:
   - varbase_carousels
   - varbase_heroslider_media
   - views
-version: 8.x-2.0
+version: 8.x-2.x-dev
 package: 'cv'
