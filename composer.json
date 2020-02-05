@@ -60,7 +60,7 @@
   },
   "autoload": {
     "psr-4": {
-      "cv\\composer\\": "src/composer"
+      "VarbaseSubProfileBasic\\composer\\": "src/composer"
     }
   },
   "scripts": {
@@ -78,7 +78,7 @@
     ],
     "post-drupal-scaffold-cmd": [
       "Varbase\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-      "cv\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+      "VarbaseSubProfileBasic\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
     ]
   },
   "extra": {

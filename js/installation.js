@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.cv = {
+  Drupal.behaviors.VarbaseSubProfileBasic = {
     attach: function (context) {
       $('#install-select-language-form #edit-langcode').on('change', function () {
         var languages = ['ar', 'en'];

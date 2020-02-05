@@ -1,6 +1,6 @@
 <?php
 
-namespace cv\composer;
+namespace VarbaseSubProfileBasic\composer;
 
 use Composer\Semver\Comparator;
 use Symfony\Component\Filesystem\Filesystem;
@@ -162,8 +162,8 @@ class ScriptHandler {
    *  For Example:
    *  -------------------------------------------------------------------------
    *    "post-drupal-scaffold-cmd": [
-   *      "cv\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-   *      "cv\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+   *      "VarbaseSubProfileBasic\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
+   *      "VarbaseSubProfileBasic\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
    *    ],
    *  -------------------------------------------------------------------------
    *
