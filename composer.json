@@ -32,6 +32,7 @@
     "cweagans/composer-patches": "~1.0",
     "drupal/core-composer-scaffold": "^8.8.0",
     "drupal/drupal-library-installer-plugin": "^0.3",
+    "webflo/drupal-finder": "~1.0",
     "vardot/varbase": "~8.8.0"
   },
   "require-dev": {
@@ -59,7 +60,7 @@
   },
   "autoload": {
     "psr-4": {
-      "VarbaseSubProfileBasic\\composer\\": "src/composer"
+      "cv\\composer\\": "src/composer"
     }
   },
   "scripts": {
@@ -77,7 +78,7 @@
     ],
     "post-drupal-scaffold-cmd": [
       "Varbase\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-      "VarbaseSubProfileBasic\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+      "cv\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
     ]
   },
   "extra": {
