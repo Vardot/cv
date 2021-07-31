@@ -1,13 +1,13 @@
 name: 'cv Basic Homepage'
 description: 'Homepage feature for cv.'
 type: module
-core: 8.x
-dependencies:
-  - block_content
-  - page_manager
-  - panels
-  - varbase_carousels
-  - varbase_heroslider_media
-  - views
-version: 8.x-2.x-dev
+core_version_requirement: ^9
+version: 3.0.x-dev
 package: 'cv'
+dependencies:
+  - varbase_core:varbase_core
+  - varbase_media:varbase_media
+  - varbase_layout_builder:varbase_layout_builder
+  - varbase_layout_builder:vlplb
+  - default_content:default_content
+  - better_normalizers:better_normalizers

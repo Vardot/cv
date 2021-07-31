@@ -1,11 +1,9 @@
-name: 'cv Basic Homepage Demo'
-description: 'Homepage demo feature for cv'
+name: 'cv Basic Demo'
+description: 'Demo feature for Varbase sub profile basic'
 type: module
-core: 8.x
-dependencies:
-  - cv_homepage
-  - default_content
-  - better_normalizers
-
-version: 8.x-2.x-dev
+core_version_requirement: ^9
+version: 3.0.x-dev
 package: 'cv'
+dependencies:
+  - default_content:default_content
+  - better_normalizers:better_normalizers

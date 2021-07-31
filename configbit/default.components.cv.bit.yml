@@ -9,8 +9,6 @@ config_bit:
     install_default_components: true
     list:
       dependencies:
-        # Enable listed modules in order at this installation step.
-        - libraries
         # Enable listed Varbase modules in order at this installation step.
         - varbase_core
         - varbase_media
@@ -19,15 +17,11 @@ config_bit:
         - varbase_email
         - varbase_security
         - varbase_seo
-#        - varbase_total_control    # Uncomment if you want to have.
-#        - varbase_tour             # Uncomment if you want to have.
-#        - varbase_update_helper    # Uncomment if you want to have.
-#        - varbase_default_content  # Uncomment if you want to have.
-        # Enable default cv base modules and features.
-        - vmi
-        - varbase_heroslider_media
-        - varbase_carousels
+        - varbase_workflow
+        - varbase_layout_builder
+        - vlplb
         # Enable default cv features.
+        - cv_homepage
 #        - cv_CUSTOM_FEATRE_01
 #        - cv_CUSTOM_FEATRE_02
 #        - cv_CUSTOM_FEATRE_03
