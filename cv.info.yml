@@ -2,7 +2,7 @@ name: cv
 type: profile
 description: 'cv.'
 core_version_requirement: ^9
-version: 3.0.x-dev
+version: 3.0.0
 base profile: varbase
 project: cv
 distribution:

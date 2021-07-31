@@ -4,6 +4,11 @@
 
 ## Who Can Benefit From cv?
 
+To install the latest version of CV 3.0.x run this command:
+```
+composer create-project vardot/cv-project:~3 PROJECT_DIR_NAME --stability dev --no-interaction
+```
+
 To install the dev version of cv 3.0.x run this command:
 ```
 composer create-project vardot/cv-project:3.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
